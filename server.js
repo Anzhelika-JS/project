@@ -5,6 +5,7 @@ const path = require('path')
 const app = express()
 
 const PORT = 3000
+console.log('world')
 
 const createPath = (page) => path.resolve(__dirname, `${page}.html`)
 
